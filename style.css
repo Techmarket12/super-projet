@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "Roboto Regular";
+    src: url(./font/Roboto-Regular.ttf);
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+
+}
+
+body {
+    font-family: "Roboto Regular";
+    padding: 20px;
+    margin: 0 ;
+}
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+header p {
+    font-size: 1.3rem;
+}
+.button a, .button a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button a {
+    display: block;
+    
+    border: 1px solid #ccc;
+    font-weight: bold;
+    border-radius: 30px ;
+    padding: 10px ;
+    font-size: 0.7rem; 
+    margin: 30px;
+    transition: 0.3s;
+    text-align: center;
+ 
+
+}
+
+.button {
+display: block;
+width: 200px;
+}
+
+
+
+section {
+    margin-bottom: 100px;
+}
+.container {
+    text-align: left;
+    margin: 50px auto;
+    color: rgba(14, 7, 112, 0.842);
+}
+.container h3 {
+    margin-bottom: 15px;
+}
+.container p {
+    margin-bottom: 20px;
+}
+
+.nav-img img {
+    height: 40px;
+    transition: 0.2s;
+    
+}
+.nav-img img:hover{
+    transform: rotate(2deg) scale(1.1);
+
+
+    cursor: pointer;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+u {
+    text-decoration: none;
+    border-bottom: 2px dashed green;
+}
+nav ul {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.section-header  {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-top: 70px;
+    margin: 0 auto;
+    width: 100%;
+
+
+}
+.section-header .container {
+    padding:  0 60px;
+    
+    
+}
+.img-header  {
+    background: url(./img/ch.png) center/cover;
+    height: 600px;
+    width: 600px;
+    cursor: pointer;
+
+}
+.section-1 h2 {
+    margin-bottom: 80px;
+    text-align: center;
+}
+.all {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.container-2 h3{
+    margin-bottom: 30px;
+
+}
+.container-2 p {
+    margin-bottom: 80px;
+}
+.container-2 {
+    padding: 30px;
+width: 20%;
+text-align: left;
+position: relative;
+transition: 1s;
+}
+.container-2:hover {
+    border: transparent;
+    background: yellow;
+    border-radius: 30px;
+transform: scale(1.1);
+
+}
+.container-2 .button  {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    
+}
+
+
+.container-2 .img img {
+    width: 100%;
+    
+    
+}
+
+
+@media screen and (max-width: 600px) {
+ .nav-img img {
+    height: 25px;
+
+ }
+ nav ul {
+    display: flex;
+ font-size: 0.6rem;
+ width: 80%;
+}
+.section-header  {
+
+display: block;
+
+}
+.img-header  {
+    background: url(./img/ch.png) center/cover;
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+
+}
+h1 {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+header p {
+    font-size: 1rem;
+}
+.all {
+    display: block;
+
+
+}
+.container-2 {
+    width: 100%;
+
+}
+}
